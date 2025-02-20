@@ -5,13 +5,6 @@ import { fileURLToPath } from 'url';
 import TareasDataSource from './tareaDataSource.mjs';
 import Tarea from '../models/tarea.mjs';
 
-// obtener ruta del archivo de tareas
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import Tarea from '../models/tarea.mjs';
-import TareasDataSource from '../datasource/tareasDataSource.mjs';
-
 // Obtener la ruta del archivo de tareas
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
