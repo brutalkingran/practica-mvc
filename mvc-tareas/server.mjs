@@ -10,7 +10,7 @@ const app = express();
 const PORT = 3000;
 
 // Middleware que permite el manejo de solicitudes con cuerpo de JSON
-app.use( express.json() );
+app.use(express.json());
 
 // Rutas
     // Ruta para obtener todas las tareas
