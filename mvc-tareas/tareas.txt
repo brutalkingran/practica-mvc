@@ -10,5 +10,11 @@
     "titulo": "Tarea 2",
     "descripcion": "Descripción de tarea 2",
     "completado": true
+  },
+  {
+    "id": 5,
+    "titulo": "Nueva tarea original propia",
+    "descripcion": "Comer pastelitos",
+    "completado": false
   }
 ]

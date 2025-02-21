@@ -15,8 +15,6 @@ export const listarTareasCompletadasController = ( req, res ) => {
 
 // controlador para crear nueva tarea
 export const crearTareaController = ( req, res ) => {
-    console.log("Cuerpo de la solicitud recibido:", req.body); 
-
     const { id, titulo, descripcion, completado } = req.body;
     crearTarea( id, titulo, descripcion, completado );
     res.send( renderizarMensaje( 'Tarea creada con éxito' ));
